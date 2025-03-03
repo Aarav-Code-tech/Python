@@ -1,0 +1,6 @@
+file = open("Aarav.txt","w")
+file.write("My name is Aarav")
+file.close()
+file = open("Aarav.txt","r")
+print(file.read())
+file.close()
