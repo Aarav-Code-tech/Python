@@ -1,0 +1,12 @@
+File=open("Aarav1.txt","r")
+print(File.readline())
+File.close()
+File=open("Aarav1.txt","r")
+print(File.readline())
+print(File.readline())
+print(File.readline())
+File.close()
+File=open("Aarav1.txt","r")
+for i in File:
+    print(i)
+File.close()
